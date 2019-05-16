@@ -1,0 +1,258 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #eff5f5;
+}
+
+#mainSection{
+  margin: 30px auto 10px auto;
+  max-width: 500px;
+  height: 550px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px 0;
+  
+}
+
+header{
+
+  text-align: justify;
+
+  width: 85%;
+  margin: 0 auto;
+}
+
+.icone-cam{
+  width: 64px;
+  height: 64px;
+
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 10px;
+  text-align: justify;
+
+  
+}
+
+.instaclone{
+  width: 275px;
+  height: 60px;
+  display: inline-block;
+  position: absolute;
+  text-align: justify;
+}
+.insta{
+ margin: 0;
+  margin-left: 0px;
+    font-size: 60px;
+    font-family: 'Courgette';
+
+}
+
+.clone{
+  font-size: 60px;
+  font-family: 'Courgette';
+  color: #2a4b7c;
+}
+
+
+
+
+
+.frase-cadastro{
+  font-family: 'Open Sans';
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+input{
+  margin: 10px auto;
+  width: 80%;
+  height: 30px;
+}
+
+.termos{
+  height: 20px;
+  width: 80%;
+  margin: 10px 0 0 10%;
+ text-align: justify;
+}
+
+.check{
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+  margin-left: 0;
+  margin-top: 3px;
+  float: left;
+ 
+  
+}
+
+
+.concordar{
+  font-size: 10px;
+  margin-top: 2px;
+
+}
+
+.div-button{
+  margin: 0 auto;
+   width: 70%;
+}
+
+.button{
+  width: 70%;
+  height: 40px;
+  background-color:  #2a4b7c;
+  border: solid 1px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+ /* border-radius: 10px;*/
+  margin:10px auto;
+  
+}
+
+.button:hover{
+  background-color:  #fff;
+  color:#2a4b7c;
+}
+
+.frase-footer{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin: 20px auto 10px auto;
+ 
+
+}
+footer{
+  height:80px;
+}
+
+footer a button{
+  width: 35%;
+  height: 35px;
+  background-color:  #2a4b7c;
+  border: solid 1px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  /*border-radius: 10px;*/
+
+}
+
+footer a button:hover{
+  background-color:  #fff;
+  color:#2a4b7c;
+}
+
+.faixa{
+  width: 100%;
+  height: 30px;
+  background-color: #eff5f5;
+
+}
+
+/*------------------------------------------------------*/
+
+#mainLogin{
+  margin: 30px auto 10px auto;
+  max-width: 475px;
+  height: 420px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+
+
+.center{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-login{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin: 25px auto 10px auto;
+ 
+}
+
+.button-login{
+  width: 40%;
+  height: 40px;
+  background-color:  #2a4b7c;
+  border: solid 1px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+ /* border-radius: 10px;*/
+}
+
+@media only screen and (max-width: 500px) {
+ #mainSection{
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  position: fixed;
+  bottom: 0;
+}
+
+#mainLogin{
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  position: fixed;
+  bottom: 0;
+  padding: 0px;
+}
+
+header{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.icone-cam{
+  margin: 10px auto; 
+  display: block;
+
+}
+.frase-cadastro{
+  
+  margin: 0 2%;
+}
+
+
+.instaclone{
+  position: relative;
+  
+  
+}
+
+
+
+.termos{
+  height: 40px;
+  /*width: 50%;*/
+  margin: 10px auto;
+  
+ 
+}
+
+.faixa{
+  display: none;
+}
+
+
+/*------------------------------------------------*/
+
